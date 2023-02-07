@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GmNews</title>
+    <!-- icon -->
+    <link rel="icon" type="image/icon" href="Media/Img/Gm-icon.png" />
+    <!-- link swiper -->
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+    <!-- link Main.css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- link fontAwesom -->
+    <link
+      rel="stylesheet"
+      href="Media/fontawesome-free-6.2.0-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- make website -->
+    <div class="wrapper">
+      <!-- make menu -->
+      <div class="menu">
+        <nav>
+          <div>
+            <ul>
+              <li><a href="#" data-id="#Home" onclick="Home1()">Home</a></li>
+              <li><a href="#" data-id="#News" onclick="News1()">News</a></li>
+              <li><a href="#" data-id="#GameAwards" onclick="GameAwards1()">GameAwards</a></li>
+              <li><a href="#" data-id="#BestGame" onclick="BestGame1()">BestGame</a></li>
+            </ul>
+          </div>
+          <div>
+            <div>
+              <a href="#">Gm</a>
+              <hr />
+              <a href="#">News</a>
+            </div>
+          </div>
+          <div class="form_up">
+            <a href="#" class="scrooller">SignIn <i class="fa-solid fa-user-tie"></i></a>
+          </div>
+          
+
+          
+        </nav>
+      </div>
+
+      <div class="menu-small">  
+        <div>
+          <div>
+            <a href="#">Gm</a>
+            <hr />
+            <a href="#">News</a>
+          </div>
+        </div>
+        <div>
+          <input type="radio" id="menu" name="menu" />
+          <input type="radio" id="close" name="menu" />
+          <label for="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <div class="menu">
+            <label for="close">&times</label>
+            <div class="Cont">
+              <div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">GameAward</a></li>
+                  <li><a href="#">BestGame</a></li>
+                </ul>
+              </div>
+              <div class="form_up">
+                <a  href="#">SignIn <i class="fa-solid fa-user-tie"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- make login form -->
+            <div class="cover">
+              <div class="login">
+                  <form action="" class="form-login">
+                      <ul class="login-nav">
+                          <li class="login-nav_item_active"><a href="#">Sign In</a></li>
+                          <li class="login-nav_item"><a href="#">Sign Up</a></li>
+                      </ul>
+                      <label for="login-input-user" class="login_label">Username</label>
+                      <input type="text" class="login-input" id="login-input-user" placeholder="Username....">
+                      <label for="login-input-password" class="login_label">Password</label>
+                      <input type="password" name="password" id="login-input-password" class="login-input" placeholder="Password....">
+                      <label for="login-sign-up" class="login_label-chechbox">
+                          <input type="checkbox" name="
+                          checkbox" id="login-sign-up" class="login_input--checkbox">Keep me Signed in
+                      </label>
+                      <button class="Login-submit" disabled>Sign in</button>
+                  </form>
+                  <a href="#" class="login_forgot">Forgot Password?</a>
+                  <div class="close"></div>
+              </div>
+              <div class="close">X</div>
+          </div>
+          <!--end make login form -->
+      <!--end make menu -->
+          <!-- make parallax -->
+          <div id="Home" class="parallax">
+            <div class="paralax-aside">
+              <div class="gmnewsP">
+                <div><h1>G</h1></div>
+                <div><h1>m</h1></div>
+                <div><h1>N</h1></div>
+                <div><h1>e</h1></div>
+                <div><h1>w</h1></div>
+                <div><h1>s</h1></div>
+              </div>
+            </div>
+            <div class="parallax-maker"><svg>
+              <text x="18%" y="65%">
+                  Creat by
+                  Mahdi Hasanpor
+              </text>
+          </svg></div>
+          </div>
+        <!--end make parallax -->
+        <!-- make main body -->
+        <div class="mainBody">
+        <!-- make contents -->
+          <div class="content">
+                <!-- make news -->
+            <div id="News">
+              <div>
+                    <img src="Media/Img/News.gif" alt="Game News">
+              </div>
+              <div class="sliderNews">
+                    <div class="swiper mySliderNews">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="slideNew">
+                            <img src="Media/Img/New1.jpg" alt="">
+                          <p style="color:darkred;text-shadow: 2px 2px 2px black ;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero porro facere maiores corrupti quo sit obcaecati commodi amet id perspiciatis illum</p>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">                          <div class="slideNew">
+                          <img src="Media/Img/New2.jpg" alt="">
+                        <p style="color: darkred;text-shadow: 2px 2px 2px black ;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero porro facere maiores corrupti quo sit obcaecati commodi amet id perspiciatis illum</p>
+                        </div></div>
+                        <div class="swiper-slide">                          <div class="slideNew">
+                          <img src="Media/Img/New3.jpg" alt="">
+                        <p style="color: darkred;text-shadow: 2px 2px 2px black ;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero porro facere maiores corrupti quo sit obcaecati commodi amet id perspiciatis illum</p>
+                        </div></div>
+                        <div class="swiper-slide">                          <div class="slideNew">
+                          <img src="Media/Img/New4.jpg" alt="">
+                        <p style="color:darkred;text-shadow: 2px 2px 2px black ;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero porro facere maiores corrupti quo sit obcaecati commodi amet id perspiciatis illum</p>
+                        </div></div>
+                        <div class="swiper-slide">                          <div class="slideNew">
+                          <img src="Media/Img/New5.jpg" alt="">
+                        <p style="color:darkred;text-shadow: 2px 2px 2px black ;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero porro facere maiores corrupti quo sit obcaecati commodi amet id perspiciatis illum</p>
+                        </div></div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                    </div>
+              </div>
+            </div>
+                <!--end make news  -->
+                <!-- make gameAward -->
+            <div id="GameAwards">
+              <div>
+                <img src="Media/Img/GameAwards.gif" alt="GameAwards">    
+              </div>
+              <div class="sliderGameAwards">
+                <div class="swiper mySliderNews">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="slideNew">
+                        <img src="Media/Img/Awards1.jpg" alt="">
+                      <p style="color: darkblue;text-shadow: 2px 2px 2px lightblue ;">The Game Awards 2022,Art Direction,Role Playing Game
+                      </p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">                          <div class="slideNew">
+                      <img src="Media/Img/Awards2.jpg" alt="">
+                    <p style="color:darkblue;text-shadow: 2px 2px 2px lightblue  ;">Narrative, Action/Adventure,Innovation in Accessibility</p>
+                    </div></div>
+                    <div class="swiper-slide">                          <div class="slideNew">
+                      <img src="Media/Img/Awards3.jpg" alt="">
+                    <p style="color: darkblue;text-shadow: 2px 2px 2px lightblue  ;">Multiplayer Game</p>
+                    </div></div>
+                    <div class="swiper-slide">                          <div class="slideNew">
+                      <img src="Media/Img/Awards4.jpg" alt="">
+                    <p style="color: darkblue;text-shadow: 2px 2px 2px lightblue  ;">Action Game</p>
+                    </div></div>
+                    <div class="swiper-slide">                          <div class="slideNew">
+                      <img src="Media/Img/Awards5.jpg" alt="">
+                    <p style="color:darkblue;text-shadow: 2px 2px 2px lightblue  ;">Independent Game,Debut Indie Game</p>
+                    </div></div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+            </div>
+                <!--end make gameAward -->
+            <!-- make best game -->
+            <div id="BestGame">
+              <div>
+                <p>
+                  Best Game
+                </p>
+              </div>
+              <div>
+                <div class="swiper mySliderNews">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="slideNew">
+                        <img src="Media/Img/Awards1.jpg" style="background-position: center;background-size: auto;" alt="">
+                      <p style="color: darkgoldenrod;text-shadow: 2px 2px 2px lightgoldenrodyellow ;">The Game Awards 2022;Elden Ring
+                      </p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">                          <div class="slideNew">
+                      <img src="Media/Img/bestgame2.webp" alt="">
+                    <p style="color:darkgoldenrod;text-shadow: 2px 2px 2px lightgoldenrodyellow  ;">The Game Awards 2021,It Takes two</p>
+                    </div></div>
+                    <div class="swiper-slide">                          <div class="slideNew">
+                      <img src="Media/Img/bestgame3.jpg" alt="">
+                    <p style="color: darkgoldenrod;text-shadow: 2px 2px 2px lightgoldenrodyellow  ;">The Game Awards 2020,The Last Of Us II </p>
+                    </div></div>
+                    <div class="swiper-slide">                          <div class="slideNew">
+                      <img src="Media/Img/bestgame4.jpg" alt="">
+                    <p style="color: darkgoldenrod;text-shadow: 2px 2px 2px lightgoldenrodyellow  ;">The Game Awards 2019,Sekiro</p>
+                    </div></div>
+                    <div class="swiper-slide">                          <div class="slideNew">
+                      <img src="Media/Img/bestgame5.jpg" alt="">
+                    <p style="color:darkgoldenrod;text-shadow: 2px 2px 2px lightgoldenrodyellow  ;">The Game Awards 2018,God Of War</p>
+                    </div></div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+            </div>
+            <!-- end make best game -->
+          </div>
+          <!-- end make contents -->
+          <!-- make aside -->
+          <div class="aside">
+            <!--make last game aside -->
+            <div class="lastGame">
+              <div><h1>Last Game</h1></div>
+              <div>
+                <div class="row1">
+                  <div class="rowBac">
+                    <div><h1>98%</h1></div>
+                    <div><p>God of War</p></div>
+                  </div>
+                </div>
+                <div class="row2">
+                  <div class="rowBac">
+                    <div><h1>93%</h1></div>
+                    <div><p>Halo Infinite</p></div>
+                  </div>
+                </div>
+                <div class="row3">
+                  <div class="rowBac">
+                    <div><h1>94%</h1></div>
+                    <div><p>Forza Horizon5</p></div>
+                  </div>
+                </div>
+                <div class="row4">
+                  <div class="rowBac">
+                    <div><h1>100%</h1></div>
+                    <div><p>Elden Ring</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end make last game aside -->
+            <!-- make Important program -->
+            <div>
+              <div><h1>Important App</h1></div>
+              <div>
+                <a class="app1" href="">
+                  <img src="Media/Img/app1.jpg" alt="">
+                  <p>Nvidia Driver</p>
+                </a>
+                <a class="app2" href="">
+                  <img src="Media/Img/app2.webp" alt="">
+                  <p>AMD Driver</p>
+                </a>
+                <a class="app3" href="">
+                  <img src="Media/Img/app3.jpg" alt="">
+                  <p>Steam</p>
+                </a>
+                <a class="app4" href="">
+                  <img src="Media/Img/app4.jpg" alt="">
+                  <p>Discord</p>
+                </a>
+              </div>
+            </div>
+            <!-- end make Important program -->
+          </div>
+          <!-- end make aside -->
+        </div>
+        <!--end make main body -->
+        <!--make scroller -->
+        <div class="top"><img src="Media/Img/scroller.svg" alt="scroller" /></div>
+        <!-- end make scroller -->
+        <!-- make footer -->
+        <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <h3>About us</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa, doloremque molestiae veritatis repudiandae adipisci architecto expedita. Id officiis distinctio iure voluptatem, deserunt harum voluptas magnam libero, ipsam a vel?</p>
+                  </div>
+                  <div class="col-md-4">
+                      <h3>Contact</h3>
+                      <ul>
+                          <li>Phone: 09022****91</li>
+                          <li>Email: mahdi@gmail.com</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-4">
+                      <h3>Follow us</h3>
+                      <ul class="social-icons">
+                          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </footer>
+        <!--end make footer -->
+
+        <!-- end make website -->
+    </div>
+
+
+
+
+    <!-- link jquery -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- link swiper js -->
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <!-- link main.js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
