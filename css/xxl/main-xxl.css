@@ -495,7 +495,9 @@ div.wrapper>div.mainBody>div.aside>div:nth-of-type(1)>div:nth-of-type(2){
 div.wrapper>div.mainBody>div.aside>div.lastGame>div:nth-of-type(2)>div.row1{
   width: 100%;
   background-image: url(../../Media/Img/bg\ slider\ row1.jpg);
-  background-size: cover;
+  background-size: 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -557,6 +559,7 @@ div.wrapper>div.mainBody>div.aside>div.lastGame>div:nth-of-type(2)>div.row2{
   width: 100%;
   background-image: url(../../Media/Img/row2.png);
   background-size: cover;
+  background-position-x: center;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
